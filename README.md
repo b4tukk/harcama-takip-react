@@ -37,18 +37,6 @@ src/
 ```
 İş mantığı arayüzden ayrıdır; bu yüzden testlerin çoğu bileşen render etmeden çalışır.
 
-## Yapay zekanın kullanımı
-Geliştirmede **Claude (Claude Code)** kullanıldı.
-
-| Aşama | Yapay zekadan alınan yardım |
-|---|---|
-| Planlama | Ekranlar, veri modeli (`{id, type, category, title, amount, date, createdAt}`), v1→v2 göç stratejisi |
-| Geliştirme | Reducer, seçiciler, CSV ayrıştırıcı, bileşenler ve CSS taslakları |
-| Doğrulama | Birim ve kullanıcı akışı testleri yazıldı; Edge ile gerçek tarayıcıda gezinme, ekran görüntüsü, mobil taşma ve konsol hatası kontrolü yapıldı |
-| Hata ayıklama | Test seçicisindeki çoklu eşleşme hatası düzeltildi |
-| Dokümantasyon | Bu README |
-
-Üretilen kodun anlaşılması ve gözden geçirilmesi geliştiricinin sorumluluğundadır.
 
 ## Ekran görüntüleri
 | İşlemler | Bütçeler | Mobil | Koyu tema |
